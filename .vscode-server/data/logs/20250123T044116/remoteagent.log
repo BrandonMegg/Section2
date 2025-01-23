@@ -41,3 +41,9 @@
 2025-01-23 04:43:42.673 [info] [127.0.0.1][c06a1605][ManagementConnection] New connection established.
 2025-01-23 04:43:43.547 [info] [127.0.0.1][09121700][ExtensionHostConnection] New connection established.
 2025-01-23 04:43:44.045 [info] [127.0.0.1][09121700][ExtensionHostConnection] <30591> Launched Extension Host Process.
+2025-01-23 05:10:37.119 [info] [127.0.0.1][c06a1605][ManagementConnection] The client has reconnected.
+2025-01-23 05:10:42.659 [info] [127.0.0.1][09121700][ExtensionHostConnection] The client has reconnected.
+2025-01-23 05:11:21.747 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-23 05:14:06.196 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-23 05:16:36.484 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-23 05:18:24.210 [warning] No ptyHost heartbeat after 6 seconds
