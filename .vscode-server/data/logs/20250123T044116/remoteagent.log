@@ -1,0 +1,43 @@
+2025-01-23 04:41:16.793 [info] 
+
+
+
+
+2025-01-23 04:41:16.834 [info] Installing extensions...
+2025-01-23 04:41:16.843 [info] Extension host agent started.
+2025-01-23 04:41:17.004 [info] [127.0.0.1][ff91c148][ManagementConnection] New connection established.
+2025-01-23 04:41:17.009 [debug] Error while reading the extension cache file: /home/ubuntu/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache Unable to read file '/home/ubuntu/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache' (Error: Unable to resolve nonexistent file '/home/ubuntu/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache')
+2025-01-23 04:41:17.015 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2025-01-23 04:41:17.089 [info] Log level changed to info
+2025-01-23 04:41:17.364 [info] [127.0.0.1][3714fc0f][ExtensionHostConnection] New connection established.
+2025-01-23 04:41:17.577 [info] [127.0.0.1][3714fc0f][ExtensionHostConnection] <29145> Launched Extension Host Process.
+2025-01-23 04:41:18.127 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2025-01-23 04:41:20.510 [info] Installing extension 'github.copilot-chat'...
+2025-01-23 04:41:20.545 [info] Installing extension 'github.copilot'...
+2025-01-23 04:41:20.553 [info] Getting Manifest... github.copilot-chat
+2025-01-23 04:41:20.553 [info] Getting Manifest... github.copilot
+2025-01-23 04:41:20.594 [info] Installing extension: github.copilot {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-01-23 04:41:20.601 [info] Installing extension: github.copilot-chat {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-01-23 04:41:21.298 [info] Getting Manifest... github.copilot-chat
+2025-01-23 04:41:22.029 [info] Getting Manifest... github.copilot
+2025-01-23 04:41:28.775 [info] Extension signature verification result for github.copilot: Success. Executed: true. Duration: 3305ms.
+2025-01-23 04:41:28.796 [info] Extension signature verification result for github.copilot-chat: Success. Executed: true. Duration: 3314ms.
+2025-01-23 04:41:30.968 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.23.2: github.copilot-chat
+2025-01-23 04:41:31.012 [info] Renamed to /home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.23.2
+2025-01-23 04:41:31.735 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/github.copilot-1.258.0: github.copilot
+2025-01-23 04:41:31.758 [info] Renamed to /home/ubuntu/.vscode-server/extensions/github.copilot-1.258.0
+2025-01-23 04:41:31.792 [info] Extension installed successfully: github.copilot-chat file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2025-01-23 04:41:31.793 [info] Extension installed successfully: github.copilot file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2025-01-23 04:41:31.798 [info] Extension 'github.copilot-chat' v0.23.2 was successfully installed.
+2025-01-23 04:41:31.799 [info] Extension 'github.copilot' v1.258.0 was successfully installed.
+2025-01-23 04:42:22.944 [info] Getting Manifest... ms-azuretools.vscode-docker
+2025-01-23 04:42:23.456 [info] Installing extension: ms-azuretools.vscode-docker {"installPreReleaseVersion":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"darwin-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-01-23 04:42:25.927 [info] Extension signature verification result for ms-azuretools.vscode-docker: Success. Executed: true. Duration: 1360ms.
+2025-01-23 04:42:26.393 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/ms-azuretools.vscode-docker-1.29.4: ms-azuretools.vscode-docker
+2025-01-23 04:42:26.442 [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-azuretools.vscode-docker-1.29.4
+2025-01-23 04:42:26.508 [info] Extension installed successfully: ms-azuretools.vscode-docker file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2025-01-23 04:43:00.541 [info] [127.0.0.1][ff91c148][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-23 04:43:01.076 [info] [127.0.0.1][3714fc0f][ExtensionHostConnection] <29145> Extension Host Process exited with code: 0, signal: null.
+2025-01-23 04:43:42.673 [info] [127.0.0.1][c06a1605][ManagementConnection] New connection established.
+2025-01-23 04:43:43.547 [info] [127.0.0.1][09121700][ExtensionHostConnection] New connection established.
+2025-01-23 04:43:44.045 [info] [127.0.0.1][09121700][ExtensionHostConnection] <30591> Launched Extension Host Process.
