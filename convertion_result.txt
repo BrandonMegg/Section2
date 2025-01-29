@@ -1,0 +1,3 @@
+Decimal: 32
+Binary: 00100000
+Hexadecimal: 20
