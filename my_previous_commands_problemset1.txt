@@ -1,0 +1,316 @@
+    1  git init
+    2  git config --global user.name
+    3  git config --global user.name "Brandon Meggerson"
+    4  git config --global user.email "bmeggerson@ucsb.edu"
+    5  git checkout -b main
+    6  git add .
+    7  git commit -m "init"
+    8  git remote add origin https://github.com/BrandonMegg/129ALBM.git
+    9  git push -u origin main 
+   10  git push -u origin main
+   11  git fetch origin
+   12  git merge origin/main
+   13  git fetch origin
+   14  git reset --hard origin/main
+   15  git push -u origin main
+   16  rm -rf ~/.vscode-server
+   17  git init
+   18  git config --global user.name
+   19  git config --global user.name "Brandon Meggerson"
+   20  git config --"global user.email "bmeggerson@ucsb.edu"
+   21  git init
+   22  git config --global user.name "Brandon Meggerson"
+   23  git config --global user.email "bmeggerson@ucsb.edu"
+   24  git checkout -b main
+   25  git add .
+   26  git commit -m "init"
+   27  git remote add origin https://github.com/BrandonMegg/129ALBM.git
+   28  git push -u origin main 
+   29  echo "(This is a message from local main branch)">> src_info.txt
+   30  ls
+   31  cat src_info.txt
+   32  git add src_info.txt
+   33  git commit -m "Add a message from the local main branch"
+   34  git status 
+   35  git log
+   36  git reset 
+   37  git status
+   38  git log
+   39  echo "(this is a message from local main branch)">> src_info.txt
+   40  cat src_info.txt
+   41  git add src_info.txt
+   42  git commit -m "Add a message from the local main branch"
+   43  git push origin main
+   44  git checkout -b feature_branch
+   45  echo "(this is a message from local feature branch to test_info)">> ..test_info.txt
+   46  git status On branch feature_branch
+   47  git status
+   48  git add .
+   49  git status
+   50  git add ../test/test_info.txt
+   51  git add test/test_info.txt
+   52  git add ..test_info.txt
+   53  git status
+   54  git commit -m "new branch with two changes"
+   55  git push -u origin feature_branch
+   56  git log
+   57  git checkout main
+   58  git add .
+   59  git commit -m "Your commit message"
+   60  git checkout main
+   61  git merge feature_branch
+   62  git status
+   63  git log
+   64  git push origin main
+   65  git fetch origin 
+   66  git status 
+   67  git diff main origin/main
+   68  git reset --hard
+   69  cat src_info.txt
+   70  git reset --hard
+   71  cat src_info.txt
+   72  git pull origin main
+   73  cd ..
+   74  ls
+   75  remote_created.txt
+   76  cd ~/Desktop/
+   77  mkdir git_clone
+   78  cd git_clone
+   79  git clone https://github.com/BrandonMegg/129ALBM.git
+   80  ls
+   81  cd 129ALBM/
+   82  ls
+   83  git status
+   84  git log
+   85  pwd
+   86  -p ~/HW_set1/home/git_clone/129ALBM/desktop/p1_basic_unix/src/utilities/basic/compositie/data_to_tables/images/history 
+   87  mkdir -p ~/HW_set1/home/git_clone/129ALBM/desktop/p1_basic_unix/src/utilities/basic/compositie/data_to_tables/images/history
+   88  docker run -v ~/HW_set1:/workspace -it ubuntu bash
+   89  sudo apt-get update
+   90  sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+   91  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   92  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+   93  sudo apt-get update
+   94  sudo apt-get install docker-ce
+   95  sudo systemctl status docker
+   96  sudo systemctl status docker
+   97  sudo service docker status
+   98  sudo service docker start
+   99  docker run -v ~/HW_set1:/workspace -it ubuntu bash
+  100  sudo service docker start
+  101  sudo nano /etc/init.d/docker
+  102  docker --version
+  103  docker info
+  104  sudo systemctl start docker
+  105  sudo dockerd
+  106  docker info
+  107  docker run hello
+  108  mkdir HWSet1
+  109  ls
+  110  cd HWSet1
+  111  echo Hello world!
+  112  ls -l
+  113  cd/home/ubuntu
+  114  find ./ -type f -name "*.sh"
+  115  find ./ -type f -name "*.sh"
+  116  find ./ -type f -name "*test*"
+  117  cd /home/ubuntu/test.sh
+  118  bash /home/ubuntu/test.sh
+  119  git status
+  120  pwd
+  121  git remote add origin https://github.com/BrandonMegg/129ALBM.git
+  122  git push -u origin main
+  123  pwd
+  124  chmod +x DTree1.sh
+  125  ./Dtree1.sh
+  126  ./DTree1.sh
+  127  cd "/p1 basic unix"
+  128  ls
+  129  cd p1_basic_unix
+  130  cd test/basic
+  131  cd test
+  132  touch "test 1.txt" "test 2.txt" "test 3.txt"
+  133  ls
+  134  echo "Brandon Meggerson - $(1/27/2025)" > test/test\1.txt
+  135  echo "Brandon Meggerson -$(date)" > test/basic/test\1.txt
+  136  echo "Brandon Meggerson -$(date)" > test/test\1.txt
+  137  mkdir -p test/basic
+  138  echo "Brandon Meggerson - $(date)" > test/basic/test\ 1.txt
+  139  cat test/basic/test\ 1.txt
+  140  ls -1 test/basic/test\ 1.txt > test/basic/test\ 2.txt
+  141  chmod +x test/basic/test\ 1.txt 
+  142  ls -1 test/basic/test\ 1.txt >> test/basic/test\ 2.txt
+  143  wget https://zhwangs.github.io/UCSB-comp-phys/data/problem_set/P1_B.tar.gz
+  144  sha256sum P1_B.tar.gz
+  145  tar -xvzf P1_B.tar.gz
+  146  ls
+  147  mv P1_B/example.sh .
+  148  ls
+  149  mv "P1_B/example 1.txt" "P1_B/demo 1.txt" 
+  150  ls P1_B
+  151  mv P1_B/example1.txt P1_B/demo_1.txt
+  152  mv P1_B/example2.txt P1_B/demo_2.txt
+  153  ls P1_B
+  154  mv P1_B/demo_1.txt src/exe/
+  155  mkdir -p src/exe cache/data/tables 
+  156  mv P1_B/demo_1.txt src/exe/
+  157  mv P1_B/demo_2.txt cache/data/tables/
+  158  ls src/exe
+  159  ls cache/data/tables
+  160  rm -r P1_B
+  161  ls
+  162  ln -s src/exe/demo\ 1.txt demo\ link
+  163  ls -1
+  164  alias 11="ls -1"
+  165  grep "statistics" src/exe/demo\ 1.txt > grep\ stat\ demo1.txt
+  166  src/exe/demo_1.txt > grep\ stat\ demo1.txt
+  167  chmod +x /home/ubuntu/p1_basic_unix/test/src/exe/demo_1.txt
+  168  src/exe/demo_1.txt > grep\ stat\ demo1.txt
+  169  pwd
+  170  ls src/exe
+  171  mkdir -p src/utilities 
+  172  grep "statistics" src/exe/demo\ 1.txt > grep\ stat\ demo_1.txt
+  173  cd /p1_basic_unix
+  174  cd /home/ubuntu/p1_basic_unix
+  175  ls src/exe
+  176  cd /home/ubuntu/p1_basic_unix
+  177  pwd
+  178  ls src/exe
+  179  cd /p1_basic_unix/test
+  180  cd /home/ubuntu/p1_basic_unix/test
+  181  ls src/exe
+  182  mkdir -p src/utilities 
+  183  grep "statistics" src/exe/demo\ 1.txt > grep\ stat\ demo1.txt
+  184  grep "statistics" src/exe > grep\ stat\ demo1.txt
+  185  grep "statistics" src/exe/demo_1.txt > grep\ stat\ demo1.txt
+  186  mv grep\ stat\ demo1.txt src/utilities/
+  187  ls src/utilities
+  188  mkdir -p cache/images 
+  189  grep -r "statistics" . | tee grep\ stat\ all.txt
+  190  mv grep\ stat\ all.txt cache/images/ 
+  191  ls cache/images 
+  192  find . -type f -name "*.txt" > test\ 3.txt
+  193  cat test\ 3.txt
+  194  find . -type f -name "*.txt" -exec grep -H "statistics" {} +
+  195  cat grep_stat_results.txt
+  196  cat grep_stat_results.txt
+  197  tar -czvf p1_basic_unix.tar.gz p1_basix_unix
+  198  tar -czvf p1_basic_unix.tar.gz p1_basic_unix
+  199  cd ..
+  200  tar -czvf p1_basic_unix.tar.gz p1_basic_unix
+  201  cd /home/ubuntu
+  202  tar -czvf p1_basic_unix.tar.gz p1_basic_unix
+  203  ls -1 p1_basic_unix.tar.gz
+  204  sha256 p1_basic_unix.tar.gz
+  205  sha256sum p1_basic_unix.tar.gz
+  206  cd 129ALBM
+  207  git clone https://github.com/BrandonMegg/129ALBM.git
+  208  cd 129ALBM
+  209  find / -name "p1_basic_unix.tar.gz" 2>/dev/null
+  210  cp /home/ubuntu/p1_basic_unix.tar.gz
+  211  cd /home/ubuntu
+  212  pwd
+  213  cd 129ALBM
+  214  cp /home/ubuntu/p1_basic_unix.tar.gz . 
+  215  git add p1_basic_unix.tar.gz 
+  216  git commit -m "Add p1_basic_unix.tar.gz file"
+  217  git push origin main
+  218  mkdir -p "/Problem 3" 
+  219  nano /Problem\ 3/convert_decimal.sh
+  220  vim /home/ubuntu/129ALBM/Problem\ 3/convert_decimal.sh
+  221  sudo apt-get update
+  222  sudo apt-get install nano
+  223  nano /home/ubuntu/129ALBM/Problem\ 3/convert_decimal.sh
+  224  chmod +x /home/ubuntu/convert_decimal.sh
+  225  /home/ubuntu/convert_decimal.sh
+  226  /home/ubuntu/convert_decimal.sh 10
+  227  git add .
+  228  git commit -m "Decimal to hex and binary script"
+  229  pwd
+  230  cd /home/ubuntu/129ALBM
+  231  git add .
+  232  git commit -m "Add decimal to hex and binary conversion script"
+  233  git remote add origin https://github.com/BrandonMegg/129ALBM.git
+  234  git push -u origin main
+  235  git init
+  236  git branch -M main
+  237  git add .
+  238  git commit -m "add decimal to hex and binary conversion script"
+  239  git push -u origin main
+  240  /Problem\ 3/convert_decimal.sh 12
+  241  chmod +x /Problem\ 3/convert_decimal.sh
+  242  /home/ubuntu/convert_decimal.sh 10
+  243  mv /home/ubuntu/convert_decimal.sh "/Problem 3/"
+  244  ls "/Problem 3/"
+  245  /Problem\ 3/convert_decimal.sh 32
+  246  /Problem\ 3/convert_decimal.sh 16
+  247  /Problem\ 3/convert_decimal.sh 9
+  248  chmod +x /Problem\ 3/convert_decimal.sh
+  249  /Problem\ 3/convert_decimal.sh 32
+  250  cat /Problem\ 3/convert_decimal.sh
+  251  /Problem\ 3/convert_decimal.sh 32
+  252  /Problem\ 3/convert_decimal.sh 32
+  253  chmod +x /Problem\ 3/convert_decimal.sh
+  254  /Problem\ 3/convert_decimal.sh 32
+  255  cat /Problem\ 3/convert_decimal.sh
+  256  chmod +x /Problem\ 3/convert_decimal.sh
+  257  /Problem\ 3/convert_decimal.sh 32
+  258  cat /Problem\ 3/convert_decimal.sh
+  259  chmod +x /Problem\ 3/convert_decimal2.sh
+  260  chmod +x /home/ubuntu/convert_decimal2.sh
+  261  mv /home/ubuntu/convert_decimal2.sh "/Problem 3/"
+  262  chmod +x /Problem\ 3/convert_decimal2.sh
+  263  /Problem\ 3/convert_decimal2.sh 32
+  264  cd "/Problem 3"
+  265  git init
+  266  git branch -M main
+  267  cd "BrandonMegg"
+  268  cd "129ALBM"
+  269  git add .
+  270  git commit -m "Add convert_decimal2.sh script and result file"
+  271  git remote add origin https://github.com/BrandonMegg/129ALBM.git
+  272  git push -u origin main
+  273  git branch
+  274  git pull origin master
+  275  git pull origin main
+  276  git pull origin main --allow-unrelated-histories
+  277  git push -u origin main 
+  278  git checkout -b main
+  279  git push -u origin main
+  280  cd /Problem_1
+  281  pwd
+  282  cd 129ALBM
+  283  git clone https://github.com/BrandonMegg/129ALBM.git 
+  284  cd Problem_1
+  285  cd 129ALBM
+  286  pwd
+  287  ls
+  288  chmod +x Problem2_alias.sh
+  289  find / -name "Problem2_alias.sh" 2>/dev/null
+  290  cd/home/ubuntu/Problem2_alias.sh
+  291  cd /home/ubuntu/Problem2_alias.sh
+  292  cd /home/ubuntu
+  293  mv /home/ubuntu/Problem2_alias
+  294  mv /home/ubuntu/Problem2_alias.sh /home/ubuntu/129ALBM
+  295  git add Problem2_alias.sh 
+  296  cd /home/ubuntu/129ALBM
+  297  git add Problem2_alias.sh
+  298  git commit -m "add Problem2_alias.sh script" 
+  299  git push origin main 
+  300  git pull origin main
+  301  git push origin main 
+  302  git checkout feature
+  303  git checkout feature_branch
+  304  echo "hello world!" > README.md
+  305  cat README.md
+  306  git add README.md
+  307  git commit -m "Add README.md with hello world message"
+  308  git push origin feature_branch
+  309  git checkout main
+  310  git merge feature_branch
+  311  git push origin main 
+  312  cat README.md
+  313  cat README.md
+  314  git pull origin main
+  315  cat README.md
+  316  history > my_previous_commands_problemset1.txt
