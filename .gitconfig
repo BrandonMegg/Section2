@@ -1,5 +1,0 @@
-[credential]
-	helper = "!f() { /home/ubuntu/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node /tmp/vscode-remote-containers-23e8d56a-331f-43cc-bc08-9714042d3d4f.js git-credential-helper $*; }; f"
-[user]
-	name = Brandon Meggerson
-	email = bmeggerson@ucsb.edu
